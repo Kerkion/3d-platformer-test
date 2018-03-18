@@ -324,6 +324,9 @@ MonoBehaviour:
   usedOffsetValues: 0
   rotateSpeed: 3
   pivot: {fileID: 163196157}
+  maxAngle: 70
+  minAngle: -20
+  invertCameraViewY: 0
 --- !u!1 &493576799
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,9 +540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d057636c959f3428c9d16fda189250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jump: 3
-  gravityScale: 1
+  speed: 10
+  jump: 4
+  gravityScale: 2
 --- !u!143 &1062006979
 CharacterController:
   m_ObjectHideFlags: 0
