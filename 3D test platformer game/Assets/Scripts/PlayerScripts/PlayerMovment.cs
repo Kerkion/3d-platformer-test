@@ -37,9 +37,9 @@ public class PlayerMovment : MonoBehaviour {
             }
         }
 
-        moveDirection.y = moveDirection.y + Physics.gravity.y * gravityScale;
+        moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.fixedDeltaTime);
 
-        charCon.Move(moveDirection * Time.deltaTime);
+        charCon.Move(moveDirection * Time.fixedDeltaTime);
 
     }
 
